@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS & JS Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Playground</h1>
+    </header>
+
+    <main>
+        <!-- Theme Selector with localStorage -->
+        <section class="card">
+            <h2>Theme Preferences</h2>
+            <div class="theme-options">
+                <button id="lightTheme" class="theme-btn">Light Mode</button>
+                <button id="darkTheme" class="theme-btn">Dark Mode</button>
+                <button id="blueTheme" class="theme-btn">Blue Mode</button>
+            </div>
+            <p>Your preference will be saved!</p>
+        </section>
+
+        <!-- Animated Elements -->
+        <section class="card">
+            <h2>CSS Animations</h2>
+            <div class="animation-box" id="pulseBox">
+                <p>Hover to pulse!</p>
+            </div>
+            <button id="spinBtn" class="animate-btn">Click to Spin</button>
+            <div id="spinElement" class="spinner">🌀</div>
+        </section>
+
+        <!-- User Data Storage -->
+        <section class="card">
+            <h2>User Data Storage</h2>
+            <input type="text" id="userInput" placeholder="Enter something to save">
+            <button id="saveBtn">Save Data</button>
+            <button id="clearBtn">Clear Data</button>
+            <div id="displayArea"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
